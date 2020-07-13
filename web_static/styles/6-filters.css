@@ -3,7 +3,7 @@
     height: 70px;
     line-height: 70px;
     width: 100%;
-    border: 1px #DDDDDD;
+    border: 1px solid #DDDDDD;
     border-radius: 4px;
     text-align: right;
 }
@@ -59,12 +59,14 @@ button:hover {
     display: none;
     background-color: #FAFAFA;
     width: 100%;
-    border: 1px #DDDDDD;
+    border: 1px solid #DDDDDD;
     border-radius: 4px;
     padding: 0;
     margin: 0;
     height: auto;
     line-height: 15px;
+    position: relative;
+    z-index: 1;
 
     margin-top: 22px;
 
@@ -74,16 +76,12 @@ button:hover {
     padding-bottom: 22px;
 }
 
-.locations:hover .popover {
-	display: block;
+.locations:hover .popover, .amenities:hover .popover {
+    display: block;
 }
 .popover, .popover ul {
     list-style: none;
 }
-.amenities:hover .popover {
-	display: block;
-}
-
 
 .popover li h2 {
     font-size: 16px;

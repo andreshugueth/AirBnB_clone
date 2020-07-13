@@ -1,4 +1,4 @@
-head {
+body {
     margin: 0;
     padding: 0;
     color: #484848;
@@ -6,13 +6,12 @@ head {
     height: 100%;
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
 .container {
     max-width: 1000px;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
 }
 
 h1, h2, h3, h4 {
